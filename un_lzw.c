@@ -1,3 +1,7 @@
+//
+// Author : Jordan Penard
+// MIT License
+//
 
 #include <stdio.h>
 #include <stdlib.h>
