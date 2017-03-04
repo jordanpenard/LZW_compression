@@ -18,5 +18,5 @@ make decompressor
 Reading from stdin, writing to stdout.
 ``` bash
 make compressor
-./lzw_compressor < compressed_file > uncompressed_file
+./lzw_compressor < uncompressed_file > compressed_file
 ```
