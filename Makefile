@@ -1,2 +1,7 @@
-all:
-	gcc -O2 -g un_lzw.c -o un_lzw
+compressor:
+	gcc -O2 -g lzw_compressor.c -o lzw_compressor
+
+decompressor:
+	gcc -O2 -g lzw_decompressor.c -o lzw_decompressor
+
+all: compressor decompressor
